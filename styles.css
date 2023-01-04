@@ -1,0 +1,49 @@
+:root {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 4.8rem;
+}
+#addBook{
+    text-align: center;
+    margin: 10px;
+}
+#bookAddForm {
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 600px 30px 600px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.hidden {
+    display: none;
+}
+.bookSpace{
+    display: grid;
+    gap: 30px;
+    margin: 0px 30px 0px 30px;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(200px, 25vh);
+}
+.card{
+    height: 100%;
+    width: 100%;
+    background-color: coral;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    padding: 10px;
+}
